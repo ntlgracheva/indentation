@@ -21,7 +21,8 @@ body {
     margin: 0 auto;
 }
 
-.article__section {
+.article__section,
+.article__navigation {
     padding: 25px 0;
 }
 
