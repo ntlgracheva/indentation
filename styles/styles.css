@@ -1,0 +1,72 @@
+@import url(normalize.css);
+@import url(global-styles.css);
+
+@import url(header.css);
+@import url(navigation.css);
+@import url(footer.css);
+@import url(images.css);
+
+html {
+    font-size: 20px;
+
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #000000;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 180px;
+}
+
+.article__section {
+    padding: 25px 0;
+}
+
+
+.article__text {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.article__navigation,
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.article__navigation .container,
+footer .container {
+    padding: 25px 45px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+
+}
+
+.article__navigation-title,
+.footer__title {
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+
+.article__section-title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+}
+
+.text-wrapper_clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
