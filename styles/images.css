@@ -1,3 +1,7 @@
+img {
+    display: block;
+}
+
 .article__img {
     margin-bottom: 30px;
 }
